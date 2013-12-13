@@ -38,9 +38,9 @@
 
 ##### ベクタ形式
 
-ベクタフォーマットでもっとも広く使われているのは [Shapeファイル](http://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%A7%E3%83%BC%E3%83%97%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB)形式です。Shapeファイルはシンプルなファイル形式のフォーマットであり、地理データが `.shp`・ `.prj`・ `.shx`・`.dbf`という4つのファイルに分割して格納されています。Shapeファイルはバイナリデータであり、テキストエディタで内部のデータを確認することができません。
+ベクタフォーマットでもっとも広く使われているのは [Shapefile](http://ja.wikipedia.org/wiki/%E3%82%B7%E3%82%A7%E3%83%BC%E3%83%97%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB)形式です。Shapefileはシンプルなファイル形式のフォーマットであり、地理データが `.shp`・ `.prj`・ `.shx`・`.dbf`という4つのファイルに分割して格納されています。Shapefileはバイナリデータであり、テキストエディタで内部のデータを確認することができません。
 
-[GeoJSON](http://geojson.org/)と[TopoJSON](https://github.com/mbostock/topojson)、および [KML](http://developers.google.com/kml) は比較的新しいフォーマットであり、それぞれ[JSON](http://www.json.org/) や [XML](http://en.wikipedia.org/wiki/XML)といったテキスト用のフォーマットをもとに作られています。テキスト形式であることによって、これらの形式のデータを扱うソフトウェアは、Shapeファイルを取り扱うよりも簡易に実装が可能です。さらにこれらの形式は機能追加や改良の柔軟性にも優れているため、最近のウェブソフトウェア実装では標準の地位を確立しつつあります。
+[GeoJSON](http://geojson.org/)と[TopoJSON](https://github.com/mbostock/topojson)、および [KML](http://developers.google.com/kml) は比較的新しいフォーマットであり、それぞれ[JSON](http://www.json.org/) や [XML](http://en.wikipedia.org/wiki/XML)といったテキスト用のフォーマットをもとに作られています。テキスト形式であることによって、これらの形式のデータを扱うソフトウェアは、Shapefileを取り扱うよりも簡易に実装が可能です。さらにこれらの形式は機能追加や改良の柔軟性にも優れているため、最近のウェブソフトウェア実装では標準の地位を確立しつつあります。
 
 ### トポロジ
 
